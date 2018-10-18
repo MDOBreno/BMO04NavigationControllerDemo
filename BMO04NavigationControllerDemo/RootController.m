@@ -6,13 +6,13 @@
 //  Copyright © 2018 Breno Medeiros. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RootController.h"
 
-@interface ViewController ()
+@interface RootController ()
 
 @end
 
-@implementation ViewController
+@implementation RootController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
