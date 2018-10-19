@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3340C9AF21791C7A00B2F640 /* AdicionarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3340C9AD21791C7A00B2F640 /* AdicionarController.m */; };
 		3340C9B021791C7A00B2F640 /* AdicionarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3340C9AE21791C7A00B2F640 /* AdicionarController.xib */; };
-		3340C9B321795E1500B2F640 /* EpiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3340C9B221795E1500B2F640 /* EpiDelegate.swift */; };
 		339B61A92178930D004B7EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B61A82178930D004B7EFE /* AppDelegate.m */; };
 		339B61AC2178930D004B7EFE /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B61AB2178930D004B7EFE /* RootController.m */; };
 		339B61AF2178930D004B7EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339B61AD2178930D004B7EFE /* Main.storyboard */; };
@@ -22,8 +21,6 @@
 		3340C9AC21791C7A00B2F640 /* AdicionarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdicionarController.h; sourceTree = "<group>"; };
 		3340C9AD21791C7A00B2F640 /* AdicionarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdicionarController.m; sourceTree = "<group>"; };
 		3340C9AE21791C7A00B2F640 /* AdicionarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarController.xib; sourceTree = "<group>"; };
-		3340C9B121795E1400B2F640 /* BMO04NavigationControllerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMO04NavigationControllerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		3340C9B221795E1500B2F640 /* EpiDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpiDelegate.swift; sourceTree = "<group>"; };
 		339B61A42178930D004B7EFE /* BMO04NavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMO04NavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		339B61A72178930D004B7EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		339B61A82178930D004B7EFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,7 +66,6 @@
 				339B61A72178930D004B7EFE /* AppDelegate.h */,
 				339B61A82178930D004B7EFE /* AppDelegate.m */,
 				339B61AA2178930D004B7EFE /* RootController.h */,
-				3340C9B221795E1500B2F640 /* EpiDelegate.swift */,
 				339B61AB2178930D004B7EFE /* RootController.m */,
 				339B61AD2178930D004B7EFE /* Main.storyboard */,
 				3340C9AC21791C7A00B2F640 /* AdicionarController.h */,
@@ -79,7 +75,6 @@
 				339B61B22178930F004B7EFE /* LaunchScreen.storyboard */,
 				339B61B52178930F004B7EFE /* Info.plist */,
 				339B61B62178930F004B7EFE /* main.m */,
-				3340C9B121795E1400B2F640 /* BMO04NavigationControllerDemo-Bridging-Header.h */,
 			);
 			path = BMO04NavigationControllerDemo;
 			sourceTree = "<group>";
@@ -159,7 +154,6 @@
 				339B61AC2178930D004B7EFE /* RootController.m in Sources */,
 				339B61B72178930F004B7EFE /* main.m in Sources */,
 				3340C9AF21791C7A00B2F640 /* AdicionarController.m in Sources */,
-				3340C9B321795E1500B2F640 /* EpiDelegate.swift in Sources */,
 				339B61A92178930D004B7EFE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +299,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5RH7482C6;
+				DEVELOPMENT_TEAM = KWKSX6FTBH;
 				INFOPLIST_FILE = BMO04NavigationControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CasaDoCodigo.BMO04NavigationControllerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = CasaDoCodigo.BMO04NavigationControllerDemoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BMO04NavigationControllerDemo/BMO04NavigationControllerDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -328,14 +322,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5RH7482C6;
+				DEVELOPMENT_TEAM = KWKSX6FTBH;
 				INFOPLIST_FILE = BMO04NavigationControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CasaDoCodigo.BMO04NavigationControllerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = CasaDoCodigo.BMO04NavigationControllerDemoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BMO04NavigationControllerDemo/BMO04NavigationControllerDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;

@@ -8,8 +8,6 @@
 
 #import "AppDelegate.h"
 #import "RootController.h"
-#import "BMO04NavigationControllerDemo-Swift.h"
-
 @interface AppDelegate ()
 
 @end
@@ -17,27 +15,24 @@
 @implementation AppDelegate
 
 
-- (void)dealloc {
-    [_window release];
-    [super dealloc];
-}
-
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    EpiDelegate *epiDelegate = [[EpiDelegate alloc] init];
-    return [EpiDelegate application:self];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    RootController *rootController = [storyboard instantiateViewControllerWithIdentifier:@"RootController"];
     
-    /* self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    RootController *rootController = [[RootController alloc] init];
+    
+    //RootController *rootController = [[RootController alloc] init];
+    
     UINavigationController  *navController = [[UINavigationController alloc] initWithRootViewController:rootController];
+    
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
-    [rootController release];         Não são mais necessarios
-    [navController release];          Não são mais necessarios
-    return YES; */
+    [self.window makeKeyWindow];
+    
+    return YES;
     
 }
 
