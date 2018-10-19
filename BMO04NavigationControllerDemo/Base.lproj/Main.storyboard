@@ -16,7 +16,40 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mff-R4-Dwr">
+                                <rect key="frame" x="155" y="133" width="65" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Adicionar"/>
+                                <connections>
+                                    <action selector="abrirAdicionar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLF-j4-net"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catálogo de empreses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDs-Fa-anV">
+                                <rect key="frame" x="101" y="73" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDP-gE-Bc8">
+                                <rect key="frame" x="137" y="181" width="101" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Configurações"/>
+                                <connections>
+                                    <action selector="abrirConfiguracoes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PyP-Y4-zkC"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GDs-Fa-anV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="7X9-GW-ZGM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jDP-gE-Bc8" secondAttribute="bottom" constant="456" id="7cn-HP-vb7"/>
+                            <constraint firstItem="jDP-gE-Bc8" firstAttribute="centerX" secondItem="mff-R4-Dwr" secondAttribute="centerX" id="DRs-aF-iyt"/>
+                            <constraint firstItem="jDP-gE-Bc8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="FCI-UI-XpB"/>
+                            <constraint firstItem="jDP-gE-Bc8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GVi-kl-iWo"/>
+                            <constraint firstItem="jDP-gE-Bc8" firstAttribute="centerX" secondItem="GDs-Fa-anV" secondAttribute="centerX" id="KvJ-9C-aq6"/>
+                            <constraint firstItem="jDP-gE-Bc8" firstAttribute="top" secondItem="mff-R4-Dwr" secondAttribute="bottom" constant="18" id="yIM-3I-UgY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

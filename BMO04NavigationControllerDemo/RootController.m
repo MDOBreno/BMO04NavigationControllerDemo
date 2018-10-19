@@ -7,6 +7,7 @@
 //
 
 #import "RootController.h"
+#import "AdicionarController.h"
 
 @interface RootController ()
 
@@ -20,4 +21,12 @@
 }
 
 
+- (IBAction)abrirAdicionar:(id)sender {
+    AdicionarController *c = [[AdicionarController alloc] init];
+    [self.navigationController pushViewController:c animated:YES];
+    [c release];
+}
+
+- (IBAction)abrirConfiguracoes:(id)sender {
+}
 @end
