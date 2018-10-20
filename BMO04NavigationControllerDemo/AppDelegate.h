@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class EpiDelegate;
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
--(EpiDelegate *)EpiDelegate;
+
 
 @end
 
