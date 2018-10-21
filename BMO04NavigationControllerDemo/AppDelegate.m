@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootController.h"
 @interface AppDelegate ()
 
 @end
@@ -15,10 +15,24 @@
 @implementation AppDelegate
 
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    RootController *rootController = [storyboard instantiateViewControllerWithIdentifier:@"RootController"];
+    UINavigationController  *navController = [[UINavigationController alloc] initWithRootViewController:rootController];
+    
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
+    [self.window makeKeyWindow];
+    
     return YES;
 }
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

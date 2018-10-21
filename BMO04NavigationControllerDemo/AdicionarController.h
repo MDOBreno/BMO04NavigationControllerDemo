@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AdicionarController.h
 //  BMO04NavigationControllerDemo
 //
 //  Created by Breno Medeiros on 18/10/18.
@@ -8,13 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
 
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface AdicionarController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
