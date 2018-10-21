@@ -1,26 +1,22 @@
 //
-//  AdicionarController.m
+//  DadosAcessoController.m
 //  BMO04NavigationControllerDemo
 //
-//  Created by Breno Medeiros on 18/10/18.
+//  Created by Breno Medeiros on 21/10/18.
 //  Copyright © 2018 Breno Medeiros. All rights reserved.
 //
 
-#import "AdicionarController.h"
+#import "DadosAcessoController.h"
 
-@interface AdicionarController ()
+@interface DadosAcessoController ()
 
 @end
 
-@implementation AdicionarController
+@implementation DadosAcessoController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-}
-
--(void) viewWillAppear:(BOOL)animated {
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 
 /*

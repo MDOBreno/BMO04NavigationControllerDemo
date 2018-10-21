@@ -8,6 +8,7 @@
 
 #import "RootController.h"
 #import "AdicionarController.h"
+#import "ConfiguracoesController.h"
 
 @interface RootController ()
 
@@ -18,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Root Controller";
 }
 
 
@@ -28,5 +30,13 @@
 }
 
 - (IBAction)abrirConfiguracoes:(id)sender {
+    ConfiguracoesController *c = [[ConfiguracoesController alloc] init];
+    [self.navigationController pushViewController:c animated:YES];
+    [c release];
 }
+
+-(void) viewWillAppear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
 @end

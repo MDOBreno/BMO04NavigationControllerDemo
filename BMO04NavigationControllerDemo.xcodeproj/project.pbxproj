@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331439C4217D04C200D213E0 /* ConfiguracoesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331439C2217D04C200D213E0 /* ConfiguracoesController.m */; };
+		331439C5217D04C200D213E0 /* ConfiguracoesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 331439C3217D04C200D213E0 /* ConfiguracoesController.xib */; };
+		331439CE217D09F200D213E0 /* DadosAcessoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331439CC217D09F200D213E0 /* DadosAcessoController.m */; };
+		331439CF217D09F200D213E0 /* DadosAcessoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 331439CD217D09F200D213E0 /* DadosAcessoController.xib */; };
 		3340C9AF21791C7A00B2F640 /* AdicionarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3340C9AD21791C7A00B2F640 /* AdicionarController.m */; };
 		3340C9B021791C7A00B2F640 /* AdicionarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3340C9AE21791C7A00B2F640 /* AdicionarController.xib */; };
 		339B61A92178930D004B7EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B61A82178930D004B7EFE /* AppDelegate.m */; };
@@ -18,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		331439C1217D04C200D213E0 /* ConfiguracoesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfiguracoesController.h; sourceTree = "<group>"; };
+		331439C2217D04C200D213E0 /* ConfiguracoesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfiguracoesController.m; sourceTree = "<group>"; };
+		331439C3217D04C200D213E0 /* ConfiguracoesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfiguracoesController.xib; sourceTree = "<group>"; };
+		331439CB217D09F200D213E0 /* DadosAcessoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DadosAcessoController.h; sourceTree = "<group>"; };
+		331439CC217D09F200D213E0 /* DadosAcessoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DadosAcessoController.m; sourceTree = "<group>"; };
+		331439CD217D09F200D213E0 /* DadosAcessoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DadosAcessoController.xib; sourceTree = "<group>"; };
 		3340C9AC21791C7A00B2F640 /* AdicionarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdicionarController.h; sourceTree = "<group>"; };
 		3340C9AD21791C7A00B2F640 /* AdicionarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdicionarController.m; sourceTree = "<group>"; };
 		3340C9AE21791C7A00B2F640 /* AdicionarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarController.xib; sourceTree = "<group>"; };
@@ -68,6 +78,12 @@
 				339B61AA2178930D004B7EFE /* RootController.h */,
 				339B61AB2178930D004B7EFE /* RootController.m */,
 				339B61AD2178930D004B7EFE /* Main.storyboard */,
+				331439CB217D09F200D213E0 /* DadosAcessoController.h */,
+				331439CC217D09F200D213E0 /* DadosAcessoController.m */,
+				331439CD217D09F200D213E0 /* DadosAcessoController.xib */,
+				331439C1217D04C200D213E0 /* ConfiguracoesController.h */,
+				331439C2217D04C200D213E0 /* ConfiguracoesController.m */,
+				331439C3217D04C200D213E0 /* ConfiguracoesController.xib */,
 				3340C9AC21791C7A00B2F640 /* AdicionarController.h */,
 				3340C9AD21791C7A00B2F640 /* AdicionarController.m */,
 				3340C9AE21791C7A00B2F640 /* AdicionarController.xib */,
@@ -137,6 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331439C5217D04C200D213E0 /* ConfiguracoesController.xib in Resources */,
+				331439CF217D09F200D213E0 /* DadosAcessoController.xib in Resources */,
 				339B61B42178930F004B7EFE /* LaunchScreen.storyboard in Resources */,
 				339B61B12178930F004B7EFE /* Assets.xcassets in Resources */,
 				3340C9B021791C7A00B2F640 /* AdicionarController.xib in Resources */,
@@ -152,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				339B61AC2178930D004B7EFE /* RootController.m in Sources */,
+				331439CE217D09F200D213E0 /* DadosAcessoController.m in Sources */,
+				331439C4217D04C200D213E0 /* ConfiguracoesController.m in Sources */,
 				339B61B72178930F004B7EFE /* main.m in Sources */,
 				3340C9AF21791C7A00B2F640 /* AdicionarController.m in Sources */,
 				339B61A92178930D004B7EFE /* AppDelegate.m in Sources */,

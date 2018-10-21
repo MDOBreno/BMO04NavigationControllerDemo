@@ -18,22 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     RootController *rootController = [storyboard instantiateViewControllerWithIdentifier:@"RootController"];
-    
-    
-    //RootController *rootController = [[RootController alloc] init];
-    
     UINavigationController  *navController = [[UINavigationController alloc] initWithRootViewController:rootController];
     
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     [self.window makeKeyWindow];
     
     return YES;
-    
 }
 
 

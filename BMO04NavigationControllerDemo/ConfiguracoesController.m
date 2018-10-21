@@ -1,26 +1,24 @@
 //
-//  AdicionarController.m
+//  ConfiguracoesController.m
 //  BMO04NavigationControllerDemo
 //
-//  Created by Breno Medeiros on 18/10/18.
+//  Created by Breno Medeiros on 21/10/18.
 //  Copyright © 2018 Breno Medeiros. All rights reserved.
 //
 
-#import "AdicionarController.h"
+#import "ConfiguracoesController.h"
+#import "DadosAcessoController.h"
 
-@interface AdicionarController ()
+@interface ConfiguracoesController ()
 
 @end
 
-@implementation AdicionarController
+@implementation ConfiguracoesController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-}
-
--(void) viewWillAppear:(BOOL)animated {
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    self.title = @"Configurações";
 }
 
 /*
@@ -32,5 +30,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)abreDadosAcesso:(id)sender {
+    DadosAcessoController *c = [[DadosAcessoController alloc] init];
+    [self.navigationController pushViewController:c animated:YES];
+    [c release];
+}
+
+-(void) viewWillAppear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+}
 
 @end
